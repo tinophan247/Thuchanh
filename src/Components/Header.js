@@ -6,8 +6,7 @@ export default class Header extends Component {
   render() {
     return (
       <div
-        className="container-fluid w-full h-24 "
-        style={{ backgroundColor: "#f6f6e9" }}
+        className="container-fluid w-full h-24 bg-header-color "
       >
         <div className="row">
           <div className="col-lg-2 col-sm-3 col-xs-12 col-md-2">

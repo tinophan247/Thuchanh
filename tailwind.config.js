@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -6,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         'header-color' : '#f6f6e9'
-      }
+      },
     },
   },
   plugins: [],
